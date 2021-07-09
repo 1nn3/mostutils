@@ -1,0 +1,30 @@
+=pod
+
+=head1 NAME
+
+strim - Entfernt allen überflüssigen Leerraum und nicht druckbare Zeichen
+
+=head1 SYNOPSIS
+
+B<strim> path/to/file…
+
+=head1 DESCRIPTION
+
+Das Kommando strim – s(trip) trim – entfernt allen überflüssigen
+Leerraum (Whitespace) und nicht druckbare Zeichen.
+
+Eine Alternative kann dieses sed-Skript sein:
+
+	#!/usr/bin/env -S sed -E -f
+	# Entfernt überflüssigen Leerraum (Whitespace) und nicht druckbare Zeichen
+	s/[[:space:]]+/ /g;
+	s/[^[:print:]]+/ /g;
+	s/\s*$//;
+	s/^\s*//;
+
+=head1 SEE ALSO
+
+L<Text::Trim(3pm)>
+
+=cut
+

@@ -1,0 +1,18 @@
+=pod
+
+=head1 NAME
+
+url-decode - Percent-decode unsafe characters
+
+=head1 SYNOPSIS
+
+B<url-decode>
+
+Percent-decode unsafe characters.
+
+=head1 SEE ALSO
+
+L<URI::Escape(3pm)>
+
+=cut
+

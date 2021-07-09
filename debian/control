@@ -1,0 +1,21 @@
+Source: mostutils
+Maintainer: nobody <nobody>
+Build-Depends: debhelper (>= 9), libfile-sharedir-install-perl
+Priority: optional
+Section: misc
+Standards-Version: 4.1.4
+
+Package: mostutils
+Architecture: all
+Depends: acpi-support,
+         alsa-utils,
+         coreutils,
+         espeak,
+         libhtml-parser-perl,
+         libtext-trim-perl,
+         liburi-perl,
+         moreutils,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: The mostutils script collection
+ This script collection contains some Perl and also some POSIX shell/sed/AWK scripts.

@@ -1,0 +1,19 @@
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+lineration - Zeigt die Häufigkeit einer Zeile, absolut und im
+Verhältnis an
+
+=head1 SYNOPSIS
+
+B<lineration> path/to/file…
+
+Zeigt die Häufigkeit einer Zeile, absolut und im Verhältnis an.
+
+Dies ist ein AWK Skript.
+
+=cut
+

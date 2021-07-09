@@ -1,0 +1,15 @@
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+domain2ip - domainname in IP auflösen
+
+=head1 SYNOPSIS
+
+B<domain2ip> <domain…>
+
+=head1 SEE ALSO
+
+=cut

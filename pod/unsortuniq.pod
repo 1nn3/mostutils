@@ -1,0 +1,24 @@
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+unsortuniq - Entfernt wiederholt auftretende Zeilen in einer unsortierten
+Datei
+
+=head1 SYNOPSIS
+
+B<unsortuniq> path/to/file…
+
+Entfernt wiederholt auftretende Zeilen in einer unsortierten Datei,
+so das in der Ausgabe keine Zeile doppelt vorhanden ist.
+
+Anders als beim Befehl L<uniq(1)> aus den coreutils, bleibt die
+ursprüngliche Reihenfolge der Zeilen erhalten. Denn es ist keine
+Voraussetzung, dass die Eingabe sortiert sein muss.
+
+Dies ist ein AWK Skript.
+
+=cut
+

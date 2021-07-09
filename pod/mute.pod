@@ -1,0 +1,20 @@
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+mute - Stellt die Lautstärke stumm
+
+=head1 SYNOPSIS
+
+B<mute>
+
+Stellt die Lautstärke stumm bzw. im Wechsel an/aus.
+
+=head1 SEE ALSO
+
+L<unmute(1)>, L<voldown(1)>, L<volup(1)>, L<volreset(1)>
+
+=cut
+

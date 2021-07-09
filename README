@@ -1,0 +1,18 @@
+The mostutils script collection
+
+Including:
+
+ * Commands to set the volume e.g. mute and ACPI scripts
+
+ * The Trim commands
+
+ * Some commands equivalent to Perl moduls
+
+ * Some sed and AWK scripts
+
+If a script can be written as a POSIX-shell script and only using
+coreutils then it is a POSIX-shell script elsewise it is a Perl script.
+But if sed or AWK is the better/faster tool then it is a sed or AWK
+script.
+
+Und dennoch, es sollte versucht werden, soviel als möglich in Perl zu schreiben.

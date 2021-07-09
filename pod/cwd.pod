@@ -1,0 +1,39 @@
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+cwd - run command in a changed working directory 
+
+=head1 SYNOPSIS
+
+B<cwd> [-d path/to/directory] -- <path/to/script [options…]>
+
+Wrapper der ein Skript in einem geänderten Arbeitsverzeichnis laufen
+lässt. Das Arbeitsverzeichnis wird dabei auf den Speicherort des
+angegebenen Skript, oder auf den Wert der Option I<-d> gesetzt.
+
+Auch die Umgebungsvariable I<PWD> wird entsprechnend gesetzt.
+
+Eine Alternative kann dieses POSIX Shell-Skript sein:
+
+	#!/bin/sh
+	cd "`dirname "$1"`" && exec "$@"
+
+=head1 OPTIONS
+
+=over
+
+=item -d <directory>
+
+Das Arbeitsverzeichnis wird zu I<directory> geändert.
+
+=item --
+
+Alle Angaben nach I<--> werden als Kommando interpretiert.
+
+=back
+
+=cut
+

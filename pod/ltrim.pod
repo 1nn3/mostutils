@@ -1,0 +1,27 @@
+=pod
+
+=head1 NAME
+
+ltrim - Entfernt Whitespace am Anfang einer Zeile
+
+=head1 SYNOPSIS
+
+B<rtrim>
+
+=head1 DESCRIPTION
+
+Liest Zeilenweise von der Standardeingabe und entfernt Leerraum (Whitespace)
+am Anfang einer Zeile. Schreibt auf die Standardausgabe.
+
+Eine Alternative kann dieses sed-Skript sein:
+
+	#!/usr/bin/env sed -f
+	# Entfernt Leerraum (Whitespace) am Anfang/links
+	s/^\s*//;
+
+=head1 SEE ALSO
+
+L<Text::Trim(3pm)>, L<trim(1)>
+
+=cut
+

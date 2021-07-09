@@ -1,0 +1,52 @@
+=encoding utf8
+
+=pod
+
+=head1 NAME
+
+hist - history
+
+=head1 SYNOPSIS
+
+B<hist> [-h path/to/history.text] [-k 4096]
+
+=head1 DESCRIPTION
+
+Liest von der Standardeingabe, prüft welche Zeilen schon in
+I<./history.text> vorhanden sind und schreibt alle anderen Zeilen mit in
+diese Datei und in die Standardausgabe.
+
+Dies ist ein BASH Skript.
+
+=head1 OPTIONS
+
+=over
+
+=item -k <integer>
+
+Länge der History.
+
+Standardwert: 4096
+
+=item -h <path/to/history.txt>
+
+Historydatei.
+
+Standardwert: ./history.text
+
+Die Historydatei wird inkl. Pfad angelegt.
+
+=back
+
+=head1 FILES
+
+=over
+
+=item ./history.text
+
+Kann mit dem Schalter I<-h> geändert werden.
+
+=back
+
+=cut
+

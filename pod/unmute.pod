@@ -1,0 +1,20 @@
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+unmute - Stummschaltung aufheben
+
+=head1 SYNOPSIS
+
+B<unmute>
+
+Hebt die Stummschaltung auf.
+
+=head1 SEE ALSO
+
+L<mute(1)>, L<voldown(1)>, L<volup(1)>, L<volreset(1)>
+
+=cut
+

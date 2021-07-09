@@ -1,0 +1,59 @@
+=pod
+
+=head1 NAME
+
+trim - Entfernt Leerraum (Whitespace) am Anfang und Ende einer Zeichenkette
+
+=head1 SYNOPSIS
+
+B<trim> [-l] [-r]
+
+Entfernt Leerraum (Whitespace) am Anfang und Ende einer Zeichenkette.
+
+B<ltrim>
+
+Entfernt Whitespace nur am Anfang einer Zeile
+
+B<rtrim>
+
+Entfernt Whitespace nur am Ende einer Zeile
+
+=head1 DESCRIPTION
+
+Liest Zeilenweise von der Standardeingabe und entfernt Leerraum (Whitespace)
+am Anfang und Ende einer Zeile. Schreibt auf die Standardausgabe.
+
+Eine Alternative kann dieses sed-Skript sein:
+
+	#!/usr/bin/env sed -f
+	# Entfernt Leerraum (Whitespace) am Anfang/links und Ende/rechts
+	s/^\s*//;
+	s/\s*$//;
+
+Die Skripte L<ltrim(1)> und L<rtrim(1)> sind Aufrufe für I<trim -l> bzw.
+I<trim -r> und eqvivalent.
+
+=head1 OPTIONS
+
+=over
+
+=item -l
+
+Entfernt Whitespace nur am Anfang einer Zeile.
+
+See also: L<ltrim(1)>
+
+=item -r
+
+Entfernt Whitespace nur am Ende einer Zeile.
+
+See also: L<rtrim(1)>
+
+=back
+
+=head1 SEE ALSO
+
+L<Text::Trim(3pm)>, L<strim(1)>
+
+=cut
+

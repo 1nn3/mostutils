@@ -1,0 +1,19 @@
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+d - date and calendar
+
+=head1 SYNOPSIS
+
+B<d>
+
+Zeigt Datum und Kalendar an.
+
+=head1 SEE ALSO
+
+L<date(1)>, L<calendar(1)>, L<tz(1)>
+
+=cut

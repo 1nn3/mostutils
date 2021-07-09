@@ -1,0 +1,39 @@
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+tz - Weltzeituhr und Zeitzonen
+
+=head1 SYNOPSIS
+
+B<tz>
+
+Zeigt Weltzeit und Zeitzonen an.
+
+=head1 ENVIRONMENT
+
+Die Umgebungsvariablen I<TZ> und I<TZDIR> stellen Informationen
+über Zeitzonen für I<tzset(3)> bereit. Siehe auch B<tzselect>(8)
+und B<environ>(7).
+
+=head1 FILES
+
+=over
+
+=item XDG_CONFIG_HOME/tz/tz
+
+Zeitzonen.
+
+	UTC
+	EST
+	Europe/Berlin
+
+=item /usr/share/zoneinfo/
+
+=item /usr/share/zoneinfo/posix/
+
+=back
+
+=cut

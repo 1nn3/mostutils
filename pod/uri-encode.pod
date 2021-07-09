@@ -1,0 +1,17 @@
+=pod
+
+=head1 NAME
+
+uri-encode - Eecode strings with HTML entities
+
+=head1 SYNOPSIS
+
+B<uri-encode>
+
+Encode strings with HTML entities.
+
+=head1 SEE ALSO
+
+L<URI::Escape(3pm)>
+
+=cut

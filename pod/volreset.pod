@@ -1,0 +1,20 @@
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+volreset - Setzt die Lautstärke auf 100% und hebt die Stummschaltung auf
+
+=head1 SYNOPSIS
+
+B<volreset>
+
+Setzt die Lautstärke auf 100% und hebt die Stummschaltung auf.
+
+=head1 SEE ALSO
+
+L<mute(1)>, L<voldown(1)>, L<volup(1)>
+
+=cut
+

@@ -1,0 +1,60 @@
+:-)	😀 	Grinsendes Gesicht 	GRINNING FACE
+:-D	😁 	Grinsendes Gesicht mit lächelnden Augen 	GRINNING FACE WITH SMILING EYES
+	😂 	Gesicht mit Freudentränen 	FACE WITH TEARS OF JOY
+	😃 	Gesicht mit offenem Mund 	SMILING FACE WITH OPEN MOUTH
+	😄 	Gesicht mit offenem Mund und lächelnden Augen 	SMILING FACE WITH OPEN MOUTH AND SMILING EYES
+	😅 	Gesicht mit offenem Mund und Schweißträne 	SMILING FACE WITH OPEN MOUTH AND COLD SWEAT
+	😆 	Gesicht mit offenem Mund und krampfhaft verschlossenen Augen 	SMILING FACE WITH OPEN MOUTH AND TIGHTLY-CLOSED EYES
+	😇 	Engelgesicht 	SMILING FACE WITH HALO
+	😈 	Teufelgesicht 	SMILING FACE WITH HORNS
+	😉 	Zwinkerndes Gesicht 	WINKING FACE
+	😊 	Strahlendes Gesicht 	SMILING FACE WITH SMILING EYES
+	😋 	Sich mit der Zunge abschleckendes Gesicht 	FACE SAVOURING DELICIOUS FOOD
+	😌 	Erleichtertes Gesicht 	RELIEVED FACE
+	😍 	Verliebtes Gesicht 	SMILING FACE WITH HEART-SHAPED EYES
+	😎 	Gesicht mit Sonnenbrille 	SMILING FACE WITH SUNGLASSES
+	😏 	Grinsendes Gesicht 	SMIRKING FACE
+:-|	😐 	Neutrales Gesicht 	NEUTRAL FACE
+	😑 	Ausdrucksloses Gesicht 	EXPRESSIONLESS FACE
+	😒 	Nicht erfreutes Gesicht 	UNAMUSED FACE
+	😓 	Gesicht mit Schweißträne 	FACE WITH COLD SWEAT
+	😔 	Nachdenkliches Gesicht 	PENSIVE FACE
+	😕 	Verwirrtes Gesicht 	CONFUSED FACE
+	😖 	Bestürztes Gesicht 	CONFOUNDED FACE
+	😗 	Küssendes Gesicht 	KISSING FACE
+	😘 	Kuss werfendes Gesicht 	FACE THROWING A KISS
+	😙 	Küssendes Gesicht mit lächelnden Augen 	KISSING FACE WITH SMILING EYES
+	😚 	Küssendes Gesicht mit geschlossenen Augen 	KISSING FACE WITH CLOSED EYES
+:-P	😛 	Zunge ausstreckendes Gesicht 	FACE WITH STUCK-OUT TONGUE
+	😜 	Zwinkerndes, Zunge ausstreckendes Gesicht 	FACE WITH STUCK-OUT TONGUE AND WINKING EYE
+	😝 	Zunge ausstreckendes Gesicht mit krampfhaft verschlossenen Augen 	FACE WITH STUCK-OUT TONGUE AND TIGHTLY-CLOSED EYES
+	😞 	Enttäuschtes Gesicht 	DISAPPOINTED FACE
+	😟 	Besorgtes Gesicht 	WORRIED FACE
+	😠 	Verärgertes Gesicht 	ANGRY FACE
+	😡 	Schmollendes Gesicht 	POUTING FACE
+	😢 	Weinendes Gesicht 	CRYING FACE
+	😣 	Beharrendes Gesicht 	PERSEVERING FACE
+	😤 	Triumphierendes Gesicht 	FACE WITH LOOK OF TRIUMPH
+	😥 	Enttäuschtes, aber erleichtertes Gesicht 	DISAPPOINTED BUT RELIEVED FACE
+	😦 		FROWNING FACE WITH OPEN MOUTH
+	😧 		ANGUISHED FACE
+	😨 	Ängstliches Gesicht 	FEARFUL FACE
+	😩 	Müdes Gesicht 	WEARY FACE
+	😪 	Schläfriges Gesicht 	SLEEPY FACE
+	😫 	Übermüdetes Gesicht 	TIRED FACE
+	😬 	Grimassengesicht 	GRIMACING FACE
+	😭 	Heulendes Gesicht 	LOUDLY CRYING FACE
+	😮 		FACE WITH OPEN MOUTH
+	😯 		HUSHED FACE
+	😰 	Gesicht mit offenem Mund und Schweißträne 	FACE WITH OPEN MOUTH AND COLD SWEAT
+	😱 	Schreiendes Gesicht 	FACE SCREAMING IN FEAR
+	😲 	Überraschtes Gesicht 	ASTONISHED FACE
+	😳 	Gerötetes Gesicht 	FLUSHED FACE
+	😴 	Schlafendes Gesicht 	SLEEPING FACE
+	😵 	Schwindeliges Gesicht 	DIZZY FACE
+:-	😶 	Gesicht ohne Mund 	FACE WITHOUT MOUTH
+	😷 	Gesicht mit Schutzmaske 	FACE WITH MEDICAL MASK
+:-(	🙁 	Leicht trauriges Gesicht 	SLIGHTLY FROWNING FACE
+:-)	🙂 	Leicht lächelndes Gesicht 	SLIGHTLY SMILING FACE
+(-:	🙃 	Gesicht auf dem Kopf stehend 	UPSIDE-DOWN FACE
+^^	🙄 	Gesicht mit rollenden Augen 	FACE WITH ROLLING EYES

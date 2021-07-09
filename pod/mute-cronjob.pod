@@ -1,0 +1,22 @@
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+mute-cronjob - Stellt die Lautstärke stumm
+
+=head1 SYNOPSIS
+
+B<mute-cronjob>
+
+Add this cronjob to automatically mute the system at night:
+
+	0 22,23,0,1,2,3 * * sun,mon,tue,wed,thu mute-cronjob
+
+=head1 SEE ALSO
+
+L<mute(1)>, L<unmute(1)>, L<volreset(1)>
+
+=cut
+

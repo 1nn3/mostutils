@@ -1,0 +1,18 @@
+=pod
+
+=head1 NAME
+
+html-decode - Encode strings with HTML entities
+
+=head1 SYNOPSIS
+
+B<html-decode>
+
+Encode strings with HTML entities.
+
+=head1 SEE ALSO
+
+L<HTML::Entities(3pm)>
+
+=cut
+
