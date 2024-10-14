@@ -1,0 +1,46 @@
+
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+query - Kommando im Fehlerfall erneut ausführen (Query)
+
+=head1 SYNOPSIS
+
+B<query> [options…] -- path/to/commands.text
+
+Als Argument wird eine Datei mit den auszuführenden Konstruken erwartet.
+
+Die Konstruke werden zeilenweise aus der Datei gelesen und im Fehlerfall
+in diese Datei zurückgeschrieben.
+
+=head1 OPTIONS
+
+=over
+
+=item --version
+
+=item --help
+
+=item --max-threads <integer>
+
+Anzahl max. gleichzeitig auszuführender Kommandos.
+
+=item --keep-query
+
+Query unangetastet lassen; behalten.
+
+=item --retry <n>
+
+Fehlgeschlagene Kommandos I<n> mal wiederholen.
+
+=item --retry-after <s>
+
+Pause zwischen Wiederholungen. Default 60*60 Sekunden.
+
+=back
+
+=cut
+

@@ -1,0 +1,74 @@
+#!/usr/bin/env perl
+# https://www.oreilly.com/library/view/perl-cookbook/1565922433/ch09s09.html
+
+use strict;
+use warnings;
+
+use v5.12;
+
+use Path::Tiny;
+use Tie::File;
+use Getopt::Long;
+use File::Basename;
+
+my $directory = '.';
+my $paths;
+my $dry_run;
+GetOptions(
+    "directory=s" => \$directory,
+    "paths=s"     => \$paths,
+    "dry-run"     => \$dry_run,
+) or die("Error in command line arguments");
+
+#my @file_list = <DATA>;
+my @paths;
+tie @paths, 'Tie::File', $paths
+    or die "No filelist (paths) given";
+
+sub list {
+    my ($path) = @_;
+
+    my $dir  = path($path);
+    my $iter = $dir->iterator;
+
+    while ( my $file = $iter->() ) {
+        if ( $file->is_dir() ) {
+            list($file);
+        }
+
+        remove($file);
+    }
+}
+
+sub remove {
+    my ($path) = @_;
+
+    my $basename = basename( $path, () );
+
+    if ( grep { $_ eq $basename } @paths ) {
+        if ($dry_run) {
+            say "keep: ", $path;
+            return;
+        }
+
+    }
+    else {
+        if ($dry_run) {
+            say "delete: ", $path;
+            return;
+        }
+
+        if ( $path->is_dir() ) {
+            rmdir($path)
+                or warn "Can't rmdir $path: $!";
+
+        }
+        else {
+            unlink($path)
+                or warn "Can't unlink $path: $!";
+        }
+    }
+}
+
+list($directory);
+

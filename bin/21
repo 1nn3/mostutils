@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+
+set -e
+
+tmp="$(mktemp)"
+trap "rm -f -- '$tmp'" 0 1 2 3 15
+
+sponge "$tmp"
+cat "$tmp"
+

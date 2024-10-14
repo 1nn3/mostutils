@@ -1,0 +1,33 @@
+Source: mostutils
+Maintainer: user <user@host>
+Build-Depends: debhelper (>= 9)
+Build-Depends-Indep: libfile-sharedir-install-perl
+Priority: optional
+Section: misc
+Standards-Version: 4.1.4
+
+Package: mostutils
+Architecture: all
+Depends: acpi-support,
+         alsa-utils,
+         bsdextrautils,
+         bsdutils,
+         calendar,
+         coreutils,
+         libcarp-assert-perl,
+         libfile-touch-perl,
+         libgeo-ip-perl,
+         libhtml-parser-perl,
+         libio-interface-perl,
+         libnet-dns-perl,
+         libnet-netmask-perl,
+         libparse-netstat-perl,
+         libtext-trim-perl,
+         moreutils,
+         ncal,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Recommends: net-tools
+Description: The Mostutils script collection
+ This script collection contains some Perl
+ and also some POSIX shell/sed/AWK scripts.

@@ -1,0 +1,30 @@
+#!/usr/bin/env perl
+
+use Getopt::Long;
+use strict;
+use Carp::Assert;
+
+my $retrys      = 10;
+my $retry_after = 60 * 60;
+
+GetOptions(
+    'retrys=i'      => \$retrys,
+    'retry-after=i' => \$retry_after,
+) || die $!;
+
+assert( $retrys > 0,       "RETRY MUST BE GREATER THEN ZERO" );
+assert( $retry_after > -1, "RETRY AFTER MUST BE POSITV" );
+assert( @ARGV,             "A COMMAND MUST BE GIVEN" );
+
+my $ret;
+do {
+    system(@ARGV);
+    $ret = $?;
+    if ( $ret == 0 ) {
+        exit $ret;
+    }
+    $retrys--;
+    sleep $retry_after;
+} while ( $retrys > 0 );
+exit $ret;
+

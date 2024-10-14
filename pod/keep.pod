@@ -1,0 +1,32 @@
+
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+keep - delete all files but
+
+=head1 SYNOPSIS
+
+B<keep> [--directory path/to/directory] --paths <path/to/paths.text>
+
+Löscht das angegebene Verzeichnis, bis auf die Dateien welche in I<--paths>
+angegeben sind.
+
+=head1 OPTIONS
+
+=over
+
+=item --directory <path/to/directory>
+
+Defaults to the current working directory (wd).
+
+=item --paths <path/to/paths.text>
+
+Liste von Pfaden zeilenweise, die nicht gelöscht werden sollen (Erforderlich).
+
+=back
+
+=cut
+

@@ -1,0 +1,41 @@
+
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+redo - Wiederhole Befehl wenn fehlgeschlagen
+
+=head1 SYNOPSIS
+
+B<redo> <options…> -- commando [args]
+
+Wiederholt das übergebene Kommand solgange bis es erfolgreich war (Return 0), oder wiederholt es nach 60 Sekunden.
+
+Dies ist ein BASH-Skript.
+
+=head1 OPTIONS
+
+=over
+
+=item --version
+
+=item --help
+
+=item --retrys <n>
+
+Fehlgeschlagene Kommandos I<n> mal wiederholen. Standard sind 10 Wiederholungen.
+
+=item --retry-after <s>
+
+Pause zwischen Wiederholungen. Standard sind 60*60 Sekunden.
+
+=back
+
+=head1 SEE ALSO
+
+L<retry(1)>
+
+=cut
+

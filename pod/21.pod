@@ -1,0 +1,21 @@
+
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+21 - Schreibt zuerst alles von STDERR und erst danach alles von STDIN
+
+=head1 SYNOPSIS
+
+B<21>
+
+Liest von STDIN. Schreibt zuerst alles von STDERR nach STDERR und erst danach,
+dann abschliessend am Ende alles von STDIN nach STDOUT.
+
+So liegt der Fokus auf der Standardaussgabe und Fehler werden aber dennoch
+angezeigt.
+
+Dies ist ein Shell-Skript.
+

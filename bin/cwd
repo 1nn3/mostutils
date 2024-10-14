@@ -1,0 +1,31 @@
+#!/usr/bin/env perl
+# change working directory
+
+use Cwd;
+use File::Basename;
+use Getopt::Long;
+use Carp::Assert;
+
+#use Cwd::utf8
+
+assert( $ARGV[0], "A command must be given" );
+
+our $directory;
+GetOptions( "directory=s" => \$directory, ) || die $!;
+
+if ( !$directory ) {
+
+    # Das working directory so ändern,
+    # das es auf den Speicherort des Skripts zeigt
+    ( undef, $directory, undef ) = fileparse( $ARGV[0] );
+}
+
+if ( !Cwd::chdir $directory ) {
+
+    # Fehlgeschlagen
+    die $directory, ": ", $!;
+}
+
+# Kommandozeile ausführen
+exec @ARGV;
+
